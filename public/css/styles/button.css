@@ -1,0 +1,17 @@
+a.button, button {
+    background-color: #F87171; /* Soft red/pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+a.button:hover, button:hover {
+    background-color: #FB923C; /* Lighter orange */
+    cursor: pointer;
+}
